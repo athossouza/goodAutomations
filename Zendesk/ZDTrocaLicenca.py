@@ -47,7 +47,7 @@ autenticador()
 
 
 
-credentials = 'athos.souza@ska.com.br', 'xxxxxx'
+credentials = 'athos.souza@empresa.com.br', 'xxxxxx'
 session = requests.Session()
 session.auth = credentials
 
