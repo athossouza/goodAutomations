@@ -100,6 +100,8 @@
             {{/if}}
           </span>
         </li>
+
+          <!-- Verify Settings Panel to show custom objects -->
           {{#if settings.show_user_devices_list_beta}}
             <ul>
             <span class="stat-label"><b>Your devices</b></span>
@@ -108,6 +110,8 @@
         	  </li>
             </ul>
           {{/if}}
+
+
       </ul>
     </div>
     <ul class="profile-stats profile-stats-counters">
@@ -456,6 +460,7 @@
   </div>
 {{/unless}}
 
+<!-- Verify Settings Panel to show custom objects for custom objects application -->
 <div class="container" hidden="true" id="user_name_obj">{{user.id}}</div>
 <div class="container" hidden="true" id="custom_object_zd">{{settings.custom_object_zd}}</div>
 <div class="container" hidden="true" id="custom_object_relationship">{{settings.custom_object_relationship}}</div>
